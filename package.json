@@ -1,0 +1,12 @@
+{
+  "name": "jayadeep-sanka-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An independent, accessible portfolio for Jayadeep Sanka.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check server.mjs && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
